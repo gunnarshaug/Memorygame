@@ -6,6 +6,7 @@ function setup() {
         homebar.setAttribute("menu",
             `<i class="material-icons">menu</i>
             <ul>
+            <li>hjem
             <li>easy
             <li>normal
             <li>hard
