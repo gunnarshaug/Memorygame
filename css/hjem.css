@@ -4,16 +4,14 @@ body {
 
 img {
     display: block;
-    width: 1500px;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
-    left: 100px;
-    top: 100px;
 }
 
 article {
     position: absolute;
-    top: 940px;
-    left: 100px;
+    top: 109vh;
+    left: 7vw;
     font-size:22px;
 }
