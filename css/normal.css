@@ -1,14 +1,15 @@
-body {
-    height: 100vh;
-    display: flex;
+
+  h3 {
+    margin-top: 50px;
   }
-  
+
   .memory-game {
-    width: 640px;
-    height: 640px;
-    margin: auto;
+    width: 600px;
+    height: 400px;
+    margin-top: 90px;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
   }
 
   .memory-card {
@@ -23,8 +24,8 @@ body {
   .back-face {
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 5px;
     position: absolute;
     border-radius: 5px;
-    background: #1C7CCC;
+    background:beige;
   }
