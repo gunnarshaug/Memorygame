@@ -6,9 +6,10 @@
 
 .Memory-Game-Hard {
   width: 640px;
-  height: 640px;
+  height: 520px;
   margin: auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -16,8 +17,8 @@
 }
 
 .memory-card {
-  width: calc(25% - 10px);
-  height: calc(33.333% - 10px);
+  width: 150px;
+  height: 150px;
   margin: 5px;
   position: relative;
   box-shadow: 1px 1px 1px rgba(0,0,0,.3);
@@ -57,8 +58,8 @@
   }
 
   .memory-card {
-    width: calc(25% - 8px);
-    height: calc(33.333% - 8px);
+    width: 150px;
+    height: 150px;
     margin: 4px;
   }
 
